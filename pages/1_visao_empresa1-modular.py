@@ -9,7 +9,7 @@ from streamlit_folium import folium_static
 st.set_page_config(page_title = 'Visão Empresa', layout = 'wide')
 image = Image.open('OIP.jpg')
 st.sidebar.image(image,width =120)
-df = pd.read_csv('train.crdownload')
+df = pd.read_csv('../train.crdownload')
 print(df.head())
 #FUNÇÕES
 #Limpeza de dados:
